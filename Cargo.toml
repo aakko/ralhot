@@ -1,0 +1,20 @@
+[package]
+name = "ralhot"
+version = "0.1.0"
+description = """
+Short and sweet macro command line parsing.
+"""
+license = "CC0-1.0"
+authors = ["Aaku Kokko <aaku.kokko@aakukokko.fi>"]
+
+[lib]
+path = "ralhot.rs"
+
+[[test]]
+name = "ralhot"
+path = "tests.rs"
+
+[[bin]]
+# example
+name = "example"
+path = "example.rs"
